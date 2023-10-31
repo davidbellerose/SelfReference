@@ -1,0 +1,12 @@
+﻿Contact table
+	id, name
+loaded join table
+	contactId
+	contactId
+	type
+type table
+	itemType
+
+
+Do I have it backwards? Should it be a one-to-many RelationshipType-to-Relationship, e.g. one type can be in many relationships?
+If this is true, I shouldn't need the Fluent API, I should be able to do this with just the navigation properties yes?
